@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+<item name="android:actionDropDownStyle">@style/MyDropDownNav</item>
+        </style>
+
+    <style name="MyDropDownNav" parent="Widget.AppCompat.ListView.DropDown">
+        <item name="android:background">@color/abc_search_url_text_pressed</item>
+        <item name="android:listSelector">@color/abc_search_url_text_pressed</item>
+    </style>
+
+
+</resources>
